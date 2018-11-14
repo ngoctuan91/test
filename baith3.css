@@ -1,0 +1,108 @@
+body{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+#ul1 li{
+	float: left;
+	margin: 0 20px;
+}
+#ul2 li{
+	float: right;
+	margin: 0 20px;
+}
+#ul2{
+	margin-right: 200px
+}
+#menu a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	display: inline-block;
+	text-align: center;
+
+}
+#menu a:hover{
+	font-size: 120%;
+}
+
+#menu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*hết menu đến banner*/
+#banner{
+	background-image: url(img/lodging.png);
+	background-size: 100% 100%
+	width: 100%;
+	height: 450px;
+	background-repeat: no-repeat;
+	margin: 20px 0px 0px;
+	/*box-sizing: border-box; cái này cũng thế*/
+}
+h1{
+	color: white;
+	padding: 170px 50px 0px;
+	margin: 0px
+}
+#banner p{
+	color: white;
+	padding: 0px 50px;
+	margin: 0px;
+}
+#content::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#content{
+	width: 100%;
+	height: 490px;
+	background-color: #f7f5f5;
+	/*cái box sizing này chả có tác dụng*/
+}
+/* từ đây xuống là chia layout ảnh*/
+h2{
+	margin: 0px 0px 0px 0px;
+	padding: 16px 0 0 26px;
+	box-sizing: border-box;
+
+}
+p{
+	margin: 26px
+}
+.anh {
+	float: left;
+}
+
+.anh1, .anh2 {
+	margin: 0 30px 26px 16px;
+	text-align: center;
+
+}
+#anh3{
+	margin-left: 16px;
+}
+/*đến phần content cuối*/
+.last1{
+	float: left;
+	width: 33%;
+	height: 200px;
+}
+h3{
+	margin: 26px;
+}
+.last1 a{
+	margin: 26px;
+}
+#last::after{
+    content: "";
+    clear: both;
+    display: table;
+}
